@@ -1,4 +1,4 @@
-name: Murad agent tick
+name: Talib agent tick
 
 on:
   schedule:
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: murad-tick
+  group: talib-tick
   cancel-in-progress: false
 
 jobs:

@@ -1,4 +1,4 @@
-name: Talib agent tick
+name: Binary agent tick
 
 on:
   schedule:
@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: talib-tick
+  group: binary-tick
   cancel-in-progress: false
 
 jobs:
